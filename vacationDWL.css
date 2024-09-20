@@ -1,0 +1,38 @@
+*{margin: 0%; font-family: arial;}
+body{color: #333;}
+h1, h2, h3, p{margin-bottom: 1em;}
+
+header{background-color: cornflowerblue;
+margin-bottom: 20px;
+padding: 50px;
+color: white;
+text-align: center;
+}
+
+
+main{margin: auto;
+    max-width: 800px;
+padding: 20px;
+display: flex;
+justify-content: space-between;}
+
+
+main form{width:40%;}
+
+label{display:block;
+    margin-bottom:0.5em;}
+
+input, textarea, #detailForm button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #666
+}
+
+    main article{width:45%}
+    img{max-width: 100%;
+    }
+
+#title{text-align: center;}
